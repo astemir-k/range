@@ -1,0 +1,538 @@
+/*
+Test
+*/
+
+@import url("reset.css");
+@import url("pt-sans.ttf");
+
+
+
+/* General styles */
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'PT Sans', Helvetica, Arial, Verdana, sans-serif;
+	color: white;
+	min-height: 100%;
+}
+
+p {
+	font-size: 17px;
+	color: white;
+	line-height: 1.3;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: black;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: underline;
+	outline: none;
+	color: black;
+	font-size: 14px;
+}
+
+.wrap {
+	width: 1280px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+
+
+
+/* Header */
+.header {
+	height: 117px;
+	width: 1280px;
+	position: fixed;
+	background: url(images/header_background.png);
+}
+	/* Header logo */
+	.logo {
+		padding-top: 10px;
+		float: left;
+		margin: 0px 0px 0px 140px;
+	}
+	
+	/* Header menu */
+	.header ul {
+		float: right;
+		margin: 40px 141px 0px 0px;
+	}
+
+	.header ul li {
+		float: right;
+		padding: 3px;
+	}
+
+	.header ul li a {
+		height: 23px;
+		display: block;
+		font-size: 20px;
+		border: 1px solid #818181;
+		border-radius: 8px 8px 8px 8px;
+		padding: 3px 10px 3px 10px;
+	}
+
+	.header ul li a:hover {
+		text-decoration: none;
+	}
+
+	.select {
+		text-decoration: none;
+		background-color: #f29100;
+		color: white;
+	}
+
+
+
+/* ГРУЗОПЕРЕВОЗКИ ПО ВСЕЙ РОССИИ */
+.map {
+	padding-left: 133px;
+	padding-top: 50px;
+}
+
+.krym {
+	height: 270px;
+	background: url(images/krym_background.png) no-repeat;
+	background-position: center;
+	padding-bottom: 20px;
+}
+
+	/* Krym article */
+	.krym_image {
+		padding-top: 10px;
+		padding-left: 140px;
+		float: left;
+	}
+
+	.title_krym {
+		padding-top: 70px;
+	}
+
+	.text_krym p {
+		padding-top: 10px;
+	}
+
+	.text_krym_1 {
+		float: left;
+	}
+
+	.text_krym_2 {
+		padding-left: 15px;
+		float: left;
+	}
+
+
+
+/* НАШИ УСЛУГИ */
+.our_services {
+	background-color: #f29100;
+}
+
+.our_services_title {
+	width: 662px;
+	height: 53px;
+	padding-left: 200px;
+	padding-top: 48px;
+	padding-bottom: 20px;
+}
+
+.our_services_article1 {
+	height: 140px;
+	background: url(images/our_services_article1_background.png) no-repeat;
+	background-position: center;
+}
+
+	.our_services_article1 img {
+		float: left;
+		padding-left: 50px;
+	}
+
+	.our_services_article1_text {
+		float: left;
+		padding-left: 15px;
+		padding-top: 25px;
+	}
+
+	.our_services_article1_text p {
+		font-size: 22px;
+		line-height: 1.3;
+	}
+
+.our_services_article2 {
+		height: 180px;
+	}
+
+	.our_services_article2_text1 {
+		float: left;
+		padding-left: 200px;
+	}
+
+	.our_services_article2_text1 p {
+		margin-bottom: 0px;
+	}
+
+	.our_services_article2_text1 ul {
+		list-style-type: disc;
+		margin-top: 0px;
+		margin-left: 0px;
+		padding-left: 20px;
+		line-height: 1.3;
+	}
+
+	.our_services_article2_text2 {
+		float: left;
+		padding-left: 30px;
+	}
+
+.our_services_article3 {
+	height: 525px;
+	background: url(images/our_services_article3_background.png) no-repeat;
+	background-position: 80px;
+	color: black;
+}
+	
+	.our_services_article3 p {
+		color: black;
+		padding-bottom: 15px;
+	}
+
+	.our_services_article3 h4 {
+		margin-top: 0px;
+		padding-top: 20px;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.our_services_article3_text1 {
+		float: left;
+		margin-left: 150px;
+
+	}
+
+	.our_services_article3_text2 {
+		float: left;
+		margin-left: 20px;
+	}
+
+.our_services_road {
+	height: 30px;
+	background-color: #1D1D1B;
+}
+
+
+
+/* О КОМПАНИИ */
+.about_header {
+	padding-top: 57px;
+	padding-left: 150px;
+	height: 53px;
+}
+
+.about_article1 {
+	padding-left: 150px;
+	height: 175px;
+	width: 1000px;
+	margin-top: 40px;
+}
+
+	.about_article1 p {
+		color: #35a8e0;
+		font-size: 23px;
+	}
+
+.about_article2 {
+	padding-left: 150px;
+	height: 360px;
+	width: 1200px;
+}
+
+	.about_article2 p {
+		color: black;
+		margin-bottom: 30px;
+	}
+
+	.about_article2_text1 {
+		float: left;
+	}
+
+	.about_article2_text2 {
+		float: left;
+		margin-left: 15px;
+	}
+
+.about_clients {
+	height: 270px;
+}
+
+	.about_clients_title {
+		margin-top: 10px;
+		margin-left: 270px;
+		margin-bottom: 30px;
+	}
+
+	.about_clients_background {
+		height: 174px;
+		background: url(images/about_clients_background.png) no-repeat;
+		background-position: center;
+	}
+
+	.about_clients_diksi {
+		float: left;
+		padding-top: 30px;
+		margin-left: 170px;
+	}
+
+	.about_clients_pek {
+		float: left;
+		padding-top: 18px;
+		margin-left: 20px;
+	}
+
+	.about_clients_transcat{
+		float: left;
+		padding-top: 35px;
+		margin-left: 10px;
+	}
+
+
+
+/* НАШИ ПРЕИМУЩЕСТВА */
+.our_plus {
+	height: 765px;
+	background-color: #35A8E0;
+}
+
+	.our_plus_title img {
+		margin-top: 45px;
+		margin-left: 140px;
+	}
+
+	.plus_container {
+		margin-top: 55px;
+		margin-left: 100px;
+		height: 400px;
+	}
+
+		.plus1 {
+			float: left;
+			margin-left: 40px;
+		}
+
+		.plus2 {
+			float: left;
+			margin-left: 40px;
+		}
+
+		.plus3 {
+			float: left;
+			margin-left: 40px;
+		}
+
+		.plus4 {
+			float: left;
+			margin-left: 40px;
+		}
+
+	.slogan_container {
+		height: 220px;
+		background-color: white;
+	}
+
+	.slogan_container img {
+		margin-top: 70px;
+		margin-left: 190px;
+	}
+
+	.plus_band {
+		height: 5px;
+		background-color: #1D1D1B;
+	}
+
+
+
+/* НАШ АВТОПАРК */
+.car_park {
+	height: 800px;
+}
+
+.car_park_background {
+	height: 340px;
+	margin-top: 115px;
+	background: url(images/car_park_background.png) no-repeat;
+	background-position: 200px;
+}
+
+	.car_park_background img {
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+
+.car_park_title {
+	height: 50px;
+	margin-top: 45px;
+	margin-left: 200px;
+}
+
+.car_park_article {
+	margin-top: 45px;
+	margin-left: 200px;
+}	
+	.car_park_article_text1 {
+		float: left;
+	}
+
+	.car_park_article_text2 {
+		float: left;
+		margin-left: 20px;
+	}
+
+	.car_park_article p {
+		color: black;
+		margin-bottom: 20px;
+	}
+
+
+
+/* КОНТАКТЫ И ОБРАТНАЯ СВЯЗЬ */
+.contact {
+	height: 900px;
+	background-color: #F29100;
+}
+	.contact_title {
+		height: 90px;
+		padding-top: 205px;
+		padding-left: 150px;
+	}
+
+	.contact_under_title {
+		height: 600px;
+	}
+
+	.contact_info {
+		float: left;
+		height: 429px;
+		padding-top: 65px;
+		padding-left: 150px;
+	}
+
+		.contact_info_phone_number {
+			height: 60px;
+		}
+
+		.contact_info_adress {
+			padding-top: 25px;
+		}
+
+	.feedback {
+		float: left;
+		padding-top: 65px;
+		padding-left: 85px;
+	}
+
+		.feedback textarea {
+			color: #F29100;
+			font-size: 17px;
+			font-style: italic;
+			font-family: 'PT Sans', Helvetica, Arial, Verdana, sans-serif;
+			border: 0px;
+			border-radius: 8px;
+		}
+
+		.text_area_name_background {
+			margin-bottom: 10px;
+			background: url(images/text_area_name.png) no-repeat;
+			height: 60px;
+			width: 494px;
+		}
+
+			.text_area_name {
+				margin-top: 17px;
+				margin-left: 20px;
+				height: 30px;
+				width: 455px;
+			}
+
+		.text_area_mail_background {
+			margin-bottom: 10px;
+			background: url(images/text_area_mail.png) no-repeat;
+			height: 60px;
+			width: 494px;
+		}
+
+			.text_area_mail {
+				margin-top: 17px;
+				margin-left: 20px;
+				height: 30px;
+				width: 455px;
+			}
+
+		.text_area_message_background {
+			margin-bottom: 15px;
+			background: url(images/text_area_message.png) no-repeat;
+			height: 200px;
+			width: 494px;
+		}
+
+			.text_area_message {
+				margin-top: 17px;
+				margin-left: 20px;
+				height: 165px;
+				width: 455px;
+			}
+
+		.contact_send img {
+			padding-right: 15px;
+			float: left;
+		}
+
+		.captcha {
+			padding-top: 18px;
+			padding-left: 15px;
+			color: #F29100;
+			font-size: 17px;
+			font-style: italic;
+			font-family: 'PT Sans', Helvetica, Arial, Verdana, sans-serif;
+			margin-right: 10px;
+			border: 0px;
+			border-radius: 8px;
+			float: left;
+			height: 60px;
+			width: 145px;
+			background: url(images/contact_send_captcha_input.png) no-repeat;
+		}
+
+		.send_button {
+			float: left;
+			color: white;
+			font-size: 20px;
+			border: 0px;
+			border-radius: 8px;
+			background-color: #35A8E0;
+			height: 60px;
+			width: 150px;
+		}
+
+	.contact_band {
+		height: 4px;
+		background-color: #35a8e0;
+	}
+
+
+/* FOOTER */
+.footer {
+	height: 100px;
+	background-color: #F29100;
+}
+
+	.footer img {
+		margin-top: 35px;
+		margin-left: 385px;
+	}
